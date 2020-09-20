@@ -668,7 +668,7 @@ b {
 }
 
 .sign_wrapper {
-    background: url(assets/pexels-christina-morillo-1181675\ 1.svg);
+    background: url(assets/pexels-christina.svg);
     height: 598px;
     width: 100%;
 }
@@ -708,4 +708,68 @@ b {
     background: url(assets/email_hover.svg);
     width: 406px;
     height: 46px;
+}
+
+.download_wrapper {
+    width: 100%;
+    height: 468px;
+    background: #F5F6F7;
+}
+
+.download_content {
+    width: 483px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 120px;
+    justify-content: space-between;
+}
+
+.down_text {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #373737;
+    text-align: center;
+}
+
+.down_description {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    align-items: center;
+    text-align: center;
+    color: #4E4E4E;
+    padding-bottom: 11px;
+}
+
+.market_buttons {
+    display: flex;
+    align-items: center;
+}
+
+.apple_href {
+    background: url(assets/apple.svg);
+    display: block;
+    margin-left: 38.5px;
+    width: 188px;
+    height: 50px;
+}
+
+.playm_href {
+    background: url(assets/android.svg);
+    display: block;
+    margin-left: 30px;
+    width: 188px;
+    height: 50px;
+}
+
+.apple_href:hover .playm_href:hover {
+    cursor: pointer;
+    width: 188px;
+    height: 50px;
 }
