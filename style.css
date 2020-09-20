@@ -595,7 +595,7 @@ b {
 
 .commutity_content{
     max-width: auto;
-    padding-top: 120px;
+    padding-top: 100px;
     padding: auto 0;
     margin-left: 269px;
     height: 244px;
@@ -638,4 +638,74 @@ b {
 
 .images {
     display: flex;
+}
+
+.pgnum {
+    position: relative;
+    top: 80px;
+    left: 1252px;
+}
+
+.iml_r {
+    max-width: 1062px;
+    margin: 0 auto;
+    margin-left: 269px;
+    height: 842px;
+}
+
+.iml_r_content {
+    max-width: 953px;
+    height: 582px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.implement_section {
+    margin: auto 0;
+    width: 407px;
+}
+
+.sign_wrapper {
+    background: url(/assets/pexels-christina-morillo-1181675\ 1.svg);
+    height: 598px;
+    width: 100%;
+}
+
+.sign_content {
+    width: 406px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 217px;
+    margin: 0 auto;
+}
+
+.sign_text {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+
+}
+
+.email_form {
+    background: url(/assets/email.svg);
+    display: block;
+    width: 406px;
+    height: 46px;
+}
+
+.email_form:hover {
+    background: url(/assets/email_hover.svg);
+    width: 406px;
+    height: 46px;
 }
