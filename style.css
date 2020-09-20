@@ -668,7 +668,7 @@ b {
 }
 
 .sign_wrapper {
-    background: url(/assets/pexels-christina-morillo-1181675\ 1.svg);
+    background: url(assets/pexels-christina-morillo-1181675\ 1.svg);
     height: 598px;
     width: 100%;
 }
@@ -698,14 +698,14 @@ b {
 }
 
 .email_form {
-    background: url(/assets/email.svg);
+    background: url(assets/email.svg);
     display: block;
     width: 406px;
     height: 46px;
 }
 
 .email_form:hover {
-    background: url(/assets/email_hover.svg);
+    background: url(assets/email_hover.svg);
     width: 406px;
     height: 46px;
 }
