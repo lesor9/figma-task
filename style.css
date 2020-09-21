@@ -521,7 +521,7 @@ header.top_header .wrapper nav.right_nav ul li a{
 }
 
 .getstart:hover {
-    background: url(assets/btn-main_hover.png);
+    background: url(assets/get_star_hover.svg);
     display: block;
     width: 184px;
     height: 46px;  
